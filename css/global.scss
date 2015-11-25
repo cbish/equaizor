@@ -1,4 +1,3 @@
-/* line 1, global.scss */
 section {
   display: flex;
   justify-content: center;
@@ -7,61 +6,42 @@ section {
   color: #EFEFEF;
 }
 
-/* line 9, global.scss */
 .full-screen {
-  height: 100%;
-  /* makes panels the entire window height */
+  height: 100%; /* makes panels the entire window height */
 }
 
-/* line 13, global.scss */
 #pinContainer {
   width: 100%;
   height: 100%;
   overflow: hidden;
   -webkit-perspective: 1000;
-  perspective: 1000;
+          perspective: 1000;
 }
-
-/* line 20, global.scss */
 #slideContainer {
-  width: 200%;
-  /* to contain 3 panes */
+  width: 200%; /* to contain 3 panes */
   height: 100%;
 }
 
-/* line 25, global.scss */
 .pane {
   height: 100%;
   float: left;
 }
-
-/* line 29, global.scss */
 .center-pane {
-  width: 50%;
-  /* relative to parent -> 25% of 400% = 100% of window width */
+  width: 50%; /* relative to parent -> 25% of 400% = 100% of window width */
 }
-
-/* line 32, global.scss */
 .side-pane {
   width: 25%;
 }
 
-/* line 36, global.scss */
 .blue {
   background-color: #3883d8;
 }
-
-/* line 39, global.scss */
 .red {
   background-color: #cf3535;
 }
-
-/* line 42, global.scss */
 .orange {
   background-color: #ea6300;
 }
-
-/* line 45, global.scss */
 .yellow {
   background-color: yellow;
 }
